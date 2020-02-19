@@ -80,6 +80,7 @@ namespace Microsoft::Console::Types
 
         virtual HRESULT RuntimeClassInitialize(const UiaTextRangeBase& a) noexcept;
 
+        UiaTextRangeBase(const UiaTextRangeBase&) = default;
         UiaTextRangeBase(UiaTextRangeBase&&) = default;
         UiaTextRangeBase& operator=(const UiaTextRangeBase&) = default;
         UiaTextRangeBase& operator=(UiaTextRangeBase&&) = default;
